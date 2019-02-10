@@ -61,7 +61,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12" align="center" style="background-color:#D3D3D3;">
-            <img src="{{ url('storage/Images/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
+            <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
         </div>
     </div>
 <div>
@@ -95,10 +95,10 @@
 
     <div class="row">
         <div class="col-md-12  Fontt" style="background-color:skyblue;padding:0px;">
-            <p style="padding-left:40px;padding-top:10px;">แชร์ประสบการณ์</p>
+            <p style="padding-left:40px;padding-top:10px;"><b>แชร์ประสบการณ์</b></p>
         </div>
         <div class="text-image">
-        <img src="{{ url('storage/Images/OBFCYE0.jpg') }}"  width="100%" height="100%">
+        <img src="Images_inView/OBFCYE0.jpg"  width="100%" height="100%">
         <div class="centered"><span class="Fontt" style="color:blue;"><h1>มาแบ่งประสบการณ์ด้านสุขภาพกันเถอะ</h1></span></div>
         <button class="btn-image Fontt" style="background-color:#28a428;padding-left: 20px;padding-right: 20px;"><h1>แชร์ประสบการณ์</h1></button>
         </div>
@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/time.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/time.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt ">
                                   <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                   <span>สมาชิก : วรศักดิ์</span><br>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem">
-                                <img class="card-img-top" src="{{ url('storage/Images/skull.jpg') }}" alt="First slide" height="200">
+                                <img class="card-img-top" src="Images_inView/skull.jpg" alt="First slide" height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/human.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/human.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/yoka1.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/yoka1.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -172,7 +172,7 @@
                 <div class="row">
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/time.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/time.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem">
-                                        <img class="card-img-top" src="{{ url('storage/Images/skull.jpg') }}" alt="Second slide" height="200">
+                                        <img class="card-img-top" src="Images_inView/skull.jpg" alt="Second slide" height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -194,7 +194,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/human.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/human.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -204,7 +204,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/yoka1.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/yoka1.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -246,7 +246,7 @@
             <div class="row">
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/book.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/book.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/runner.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/runner.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -267,7 +267,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/slim.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/slim.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -277,7 +277,7 @@
                 </div>
                 <div class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/Images/fat.jpg') }}" alt="First slide"  height="200">
+                                <img class="card-img-top" src="Images_inView/fat.jpg" alt="First slide"  height="200">
                                 <div class="card-body Fontt">
                                         <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                         <span>สมาชิก : วรศักดิ์</span><br>
@@ -293,7 +293,7 @@
                 <div class="row">
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/book.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/book.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -304,7 +304,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/runner.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/runner.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -314,7 +314,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/slim.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/slim.jpg" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text ">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -324,7 +324,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/fat.jpg') }}" alt="Second slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/fat.jpg}" alt="Second slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -367,7 +367,7 @@
                 <div class="row">
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/pig.jpg') }}" alt="First slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/pig.jpg" alt="First slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -377,7 +377,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/fish.jpg') }}" alt="First slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/fish.jpg" alt="First slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -387,7 +387,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/bean.jpg') }}" alt="First slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/bean.jpg" alt="First slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -397,7 +397,7 @@
                         </div>
                         <div class="col-md-3">
                                 <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ url('storage/Images/veget.jpg') }}" alt="First slide"  height="200">
+                                        <img class="card-img-top" src="Images_inView/veget.jpg" alt="First slide"  height="200">
                                         <div class="card-body Fontt">
                                                 <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                 <span>สมาชิก : วรศักดิ์</span><br>
@@ -413,7 +413,7 @@
                     <div class="row">
                             <div class="col-md-3">
                                     <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="{{ url('storage/Images/pig.jpg') }}" alt="Second slide"  height="200">
+                                            <img class="card-img-top" src="Images_inView/pig.jpg" alt="Second slide"  height="200">
                                             <div class="card-body Fontt">
                                                     <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                     <span>สมาชิก : วรศักดิ์</span><br>
@@ -423,7 +423,7 @@
                             </div>
                             <div class="col-md-3">
                                     <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="{{ url('storage/Images/fish.jpg') }}" alt="Second slide"  height="200">
+                                            <img class="card-img-top" src="Images_inView/fish.jpg" alt="Second slide"  height="200">
                                             <div class="card-body Fontt">
                                                     <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                     <span>สมาชิก : วรศักดิ์</span><br>
@@ -433,7 +433,7 @@
                             </div>
                             <div class="col-md-3">
                                     <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="{{ url('storage/Images/bean.jpg') }}" alt="Second slide"  height="200">
+                                            <img class="card-img-top" src="Images_inView/bean.jpg" alt="Second slide"  height="200">
                                             <div class="card-body Fontt">
                                                     <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                     <span>สมาชิก : วรศักดิ์</span><br>
@@ -443,7 +443,7 @@
                             </div>
                             <div class="col-md-3">
                                     <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="{{ url('storage/Images/veget.jpg') }}" alt="Second slide"  height="200">
+                                            <img class="card-img-top" src="Images_inView/veget.jpg" alt="Second slide"  height="200">
                                             <div class="card-body Fontt">
                                                     <b class="card-text">วิธีแก้การนอนหลับมากเกินไป</b>
                                                     <span>สมาชิก : วรศักดิ์</span><br>
@@ -468,7 +468,7 @@
         </div>
         <br>
         <div class="col-md-12" align="left" style="background-color:#D3D3D3;">
-                <img src="{{ url('storage/Images/LOGO-01.png') }}" alt="Cinque Terre" width="200" height="100">
+                <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
         </div>
 
 </div>
