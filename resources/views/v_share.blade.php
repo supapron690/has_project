@@ -61,7 +61,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12" align="center" style="background-color:#D3D3D3;">
-            <img src="{{ url('storage/Images/logo-1.png') }}" alt="Cinque Terre" width="200" height="100">
+            <img src="{{ url('storage/Images/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
         </div>
     </div>
 <div>
