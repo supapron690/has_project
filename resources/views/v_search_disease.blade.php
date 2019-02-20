@@ -79,6 +79,54 @@
             #textshadow{
                 text-shadow: 2px 1px grey;
             }
+            .hover01 figure:hover img {
+                opacity: 1;
+                -webkit-animation: flash 1.5s;
+                animation: flash 1.5s;
+            }
+            @-webkit-keyframes flash {
+                0% {
+                    opacity: .4;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            @keyframes flash {
+                0% {
+                    opacity: .4;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            figure {
+                margin: 0;
+                padding: 0;
+                background: #fff;
+                overflow: hidden;
+            }
+            figure:hover+span {
+                opacity: 1;
+            }
+
+              .product-img {
+                float: left;
+              }
+
+              .product-img img {
+                border-radius: 7px 0 0 7px;
+              }
+
+              .product-info {
+                float: left;
+                height: 100px;
+                width: 250px;
+                border-radius: 0 10px 10px 0px;
+                background-color: #ffffff;
+
+              }
 
         </style>
 
@@ -136,7 +184,7 @@
 
     <div class="row" style="margin-top:16px;margin-bottom:16px;">
             <div class="col-md-10">
-                    <h1 class="text-left Fontt mb-3" style="margin-left:16px;margin-top:16px; display: inline;">โรค หรือ อาการ ที่ควรรู้</h1>
+                    <h1 class="text-left Fontt mb-3" style="margin-left:16px;margin-top:16px; display: inline;">โรค หรือ อาการ ที่มีการค้นหามากที่สุด</h1>
             </div>
     </div>
 
@@ -148,14 +196,18 @@
             <div class="carousel-inner" style="margin-left:16px;padding-right:17px;">
               <div class="carousel-item active">
                 <div class="row">
+
                     <div class="col-md-3">
-                            <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="Images_inView/32065.jpg" alt="First slide"  height="200">
-                                    <div class="card-body Fontt ">
+
+                                <div class="card" style="width: 18rem;">
+                                          <img class="card-img-top" src="Images_inView/32065.jpg" alt="First slide"  height="200">
+
+                                            <div class="card-body Fontt ">
                                       <b class="card-text" style="font-size: 13px;">โรคหัวใจ (Heart Disease)</b>
                                       <p style="font-size: 10px;text-indent:20px;">คือ โรคต่างๆที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้หล่ายกลุ่ม</p>
                                     </div>
-                            </div>
+                                </div>
+
 
                     </div>
                     <div class="col-md-3">
@@ -245,6 +297,323 @@
               <span class="sr-only">Next</span>
             </a>
         </div>
+        <br>
+
+        <!-- ค้นหาด้วยหมวดหมู่ของโรค หรือ อาการ -->
+        <div class="row" style="margin-top:16px;margin-bottom:16px;">
+                <div class="col-md-10">
+                        <h1 class="text-left Fontt mb-3" style="margin-left:16px;margin-top:16px; display: inline;">ค้นหาด้วยหมวดหมู่ของโรค หรือ อาการ</h1>
+                </div>
+        </div>
+
+        <div class="hover01">
+        <div class="row" style="margin-left:10px; margin-right:10px; margin-bottom:10px">
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/1.โรคตา.PNG" alt="First slide">
+                            <figure>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/2.โรคทางเดินอาหาร.PNG" alt="First slide">
+                            </figure>
+                        </div>
+
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/3.ระบบทางเดินหายใจ.PNG" alt="First slide">
+                            </figure>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/4.โรคหูคอจมูก.PNG" alt="First slide">
+                            </figure>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-left:10px; margin-right:10px; margin-bottom:10px" >
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/5.โรคทางเดินอาหาร.PNG" alt="First slide">
+                            </figure>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/6.โรคหัวใจและหลอดเลือด.PNG" alt="First slide">
+                            </figure>
+                        </div>
+
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/7.โรคระบบประสาท.PNG" alt="First slide">
+                            </figure>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div>
+                            <figure>
+                                <img class="card-img-top" src="Images_inView/ปุ่มโรค/8.โรคตับ.PNG" alt="First slide">
+                            </figure>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-left:10px; margin-right:10px; margin-bottom:10px">
+                    <div class="col-md-3">
+                            <div>
+                                <figure>
+                                    <img class="card-img-top" src="Images_inView/ปุ่มโรค/9.โรคกระดูกและกล้ามเนื้อ.PNG" alt="First slide">
+                                </figure>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div>
+                                <figure>
+                                    <img class="card-img-top" src="Images_inView/ปุ่มโรค/10.โรคต่อมไร้ท่อ.PNG" alt="First slide">
+                                </figure>
+                            </div>
+
+                    </div>
+                    <div class="col-md-3">
+                            <div>
+                                <figure>
+                                    <img class="card-img-top" src="Images_inView/ปุ่มโรค/11.โรคติดเชื้อ.PNG" alt="First slide">
+                                </figure>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div>
+                                <figure>
+                                    <img class="card-img-top" src="Images_inView/ปุ่มโรค/12.โรคผิวหนัง.PNG" alt="First slide">
+                                </figure>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left:10px; margin-right:10px; margin-bottom:10px">
+                        <div class="col-md-3">
+                                <div>
+                                    <figure>
+                                        <img class="card-img-top" src="Images_inView/ปุ่มโรค/13.โรคทางพันธุกรรม.PNG" alt="First slide">
+                                    </figure>
+                                </div>
+                        </div>
+                        <div class="col-md-3">
+                                <div>
+                                    <figure>
+                                        <img class="card-img-top" src="Images_inView/ปุ่มโรค/14.โรคระบาด.PNG" alt="First slide">
+                                    </figure>
+                                </div>
+
+                        </div>
+                        <div class="col-md-3">
+                                <div>
+                                    <figure>
+                                        <img class="card-img-top" src="Images_inView/ปุ่มโรค/15.โรคระบบขับถ่าย.PNG" alt="First slide">
+                                    </figure>
+                                </div>
+                        </div>
+                        <div class="col-md-3">
+                                <div>
+                                    <figure>
+                                        <img class="card-img-top" src="Images_inView/ปุ่มโรค/16.โรคติดต่อทางเพศสัมพันธ์.PNG" alt="First slide">
+                                    </figure>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-left:10px; margin-right:10px; margin-bottom:10px">
+                            <div class="col-md-3">
+                                    <div>
+                                        <figure>
+                                            <img class="card-img-top" src="Images_inView/ปุ่มโรค/17.สูตินารีเวช.PNG" alt="First slide">
+                                        </figure>
+                                    </div>
+                            </div>
+                            <div class="col-md-3">
+                                    <div>
+                                        <figure>
+                                            <img class="card-img-top" src="Images_inView/ปุ่มโรค/18.มะเร็ง.PNG" alt="First slide">
+                                        </figure>
+                                    </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                    <div>
+                                        <figure>
+                                            <img class="card-img-top" src="Images_inView/ปุ่มโรค/19.จิตเวช.PNG" alt="First slide">
+                                        </figure>
+                                    </div>
+                            </div>
+                            <div class="col-md-3">
+                                    <div>
+                                        <figure>
+                                            <img class="card-img-top" src="Images_inView/ปุ่มโรค/20.กายภาพ.PNG" alt="First slide">
+                                        </figure>
+                                    </div>
+                            </div>
+                        </div>
+        </div>
+        <!-- แสดงหมวดหมู่โรคตา -->
+        <div class="row" style="padding-top:50px">
+            <div class="col-md-12" align="left" style="background-color:#0059b3;">
+                <div class="row">
+                    <br><h1 class="text-left Fontt mb-3" style="margin-left:50px;margin-top:30px; display: inline; color:#ffffff">แสดงหมวดหมู่ "โรคตา"</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                    <div>
+                        <div class="product-img" style="margin-left:30px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:20px">
+                    <div>
+                        <div class="product-img" style="margin-left:30px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:20px">
+                    <div>
+                        <div class="product-img" style="margin-left:30px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:20px">
+                    <div>
+                        <div class="product-img" style="margin-left:30px">
+                            <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px">
+                                <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-img" style="margin-left:50px; margin-bottom:50px  ">
+                                <img src="Images_inView/278.jpg" height="100" width="130">
+                        </div>
+                        <div class="product-info Fontt">
+                            <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
+                            <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-md-12" align="left" style="background-color:#D3D3D3;">
+                <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
+        </div>
+    </div>
+
+
 
 </div>
 </body>
