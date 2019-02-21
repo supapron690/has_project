@@ -123,7 +123,7 @@
 
               .product-info {
                 float: left;
-                height: 100px;
+                height: 130px;
                 width: 250px;
                 border-radius: 0 10px 10px 0px;
                 background-color: #ffffff;
@@ -192,7 +192,7 @@
 
         <div class="row" style="margin-top:16px;margin-bottom:15px;">
             <div class="col-md-10">
-                <h1 class="text-left Fontt mb-3" style="margin-left:16px;margin-top:20px; display: inline;">โรงพยาบาลใกล้เคียง</h1>
+                <h1 class="text-left Fontt mb-3" style="margin-left:16px; margin-top:20px; display: inline;">โรงพยาบาลใกล้เคียง</h1>
             </div>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -210,22 +210,29 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลมหาวิทยาลัยบูรพา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมือง
-                                        จังหวัดชลบุรี 20131</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3839-4850-3, 0-3839-0324</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมือง จังหวัดชลบุรี 20131<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3839-4850-3, 0-3839-0324
+                                    </p>
                                     <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 0.9 กิโลเมตร</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-3">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="Images_inView/โรงพยาบาล/รพชลบุรี.jpg" alt="First slide"
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลชลบุรี</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 69 หมู่2 ถนนสุขุมวิท ตำบลบ้านสวน อำเภอเมือง
-                                        จังหวัดชลบุรี 20000</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3893-1000</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        69 หมู่2 ถนนสุขุมวิท ตำบลบ้านสวน อำเภอเมือง จังหวัดชลบุรี 20000<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3893-1000
+                                    </p>
                                     <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 11.5 กิโลเมตร</p>
                                 </div>
                             </div>
@@ -236,9 +243,12 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลสมิติเวช ศรีราชา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 8 ซอยแหลมเตุ ถนนเจิมจอมพล อำเภอศรีราชา
-                                        จังหวัดชลบุรี 20110</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3832-0300</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        8 ซอยแหลมเตุ ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี 20110<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3832-0300
+                                    </p>
                                     <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 13.9 กิโลเมตร</p>
                                 </div>
                             </div>
@@ -249,9 +259,12 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลสมเด็จพระบรมราชเทวี ศรีราชา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 290 ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี
-                                        20110</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3832-0200</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        290 ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี 20110<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3832-0200
+                                    </p>
                                     <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 15.9 กิโลเมตร</p>
                                 </div>
                             </div>
@@ -267,21 +280,30 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลมหาวิทยาลัยบูรพา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมือง
-                                        จังหวัดชลบุรี 20131</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3839-4850-3, 0-3839-0324</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมือง จังหวัดชลบุรี 20131<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3839-4850-3, 0-3839-0324
+                                    </p>
+                                    <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 0.9 กิโลเมตร</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-3">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="Images_inView/โรงพยาบาล/รพชลบุรี.jpg" alt="First slide"
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลชลบุรี</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 69 หมู่2 ถนนสุขุมวิท ตำบลบ้านสวน อำเภอเมือง
-                                        จังหวัดชลบุรี 20000</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3893-1000</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        69 หมู่2 ถนนสุขุมวิท ตำบลบ้านสวน อำเภอเมือง จังหวัดชลบุรี 20000<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3893-1000
+                                    </p>
+                                    <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 11.5 กิโลเมตร</p>
                                 </div>
                             </div>
                         </div>
@@ -291,9 +313,13 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลสมิติเวช ศรีราชา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 8 ซอยแหลมเตุ ถนนเจิมจอมพล อำเภอศรีราชา
-                                        จังหวัดชลบุรี 20110</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3832-0300</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        8 ซอยแหลมเตุ ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี 20110<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3832-0300
+                                    </p>
+                                    <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 13.9 กิโลเมตร</p>
                                 </div>
                             </div>
                         </div>
@@ -303,9 +329,13 @@
                                     height="200">
                                 <div class="card-body Fontt ">
                                     <b style="font-size: 13px;">โรงพยาบาลสมเด็จพระบรมราชเทวี ศรีราชา</b>
-                                    <p style="font-size: 10px">ที่อยู่ : 290 ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี
-                                        20110</p>
-                                    <p style="font-size: 10px">เบอร์โทรศัพท์ : 0-3832-0200</p>
+                                    <p style="font-size: 10px">
+                                        <b>ที่อยู่ :</b>
+                                        290 ถนนเจิมจอมพล อำเภอศรีราชา จังหวัดชลบุรี 20110<br>
+                                        <b>เบอร์โทรศัพท์ :</b>
+                                        0-3832-0200
+                                    </p>
+                                    <p style="font-size: 15px; color:teal; text-align:right"> ระยะทาง 15.9 กิโลเมตร</p>
                                 </div>
                             </div>
                         </div>
@@ -370,138 +400,127 @@
             </div>
         </div>
 
-        <!-- แสดงหมวดหมู่โรคตา -->
+        <!-- แสดงโรงพยาบาลในจังหวัด -->
         <div class="row" style="padding-top:50px">
             <div class="col-md-12" align="left" style="background-color:#0059b3;">
                 <div class="row">
                     <br>
-                    <h1 class="text-left Fontt mb-3" style="margin-left:50px;margin-top:30px; display: inline; color:#ffffff">แสดงหมวดหมู่
-                        "โรคตา"</h1>
+                    <h1 class="text-left Fontt mb-3" style="margin-left:50px;margin-top:30px; display: inline; color:#ffffff">แสดงโรงพยาบาลภายในจังหวัด
+                        "ชลบุรี"</h1>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="margin-top:10px; margin-bottom:10px">
                         <div>
                             <div class="product-img" style="margin-left:30px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                                <img src="Images_inView/โรงพยาบาล/รพม.บูรพา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลมหาวิทยาลัยบูรพา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 169 ถนนลงหาดบางแสน ตำบลแสนสุข
+                                    อำเภอเมือง จังหวัดชลบุรี 20131<br>เบอร์โทรศัพท์ : 0-3839-4850-3, 0-3839-0324</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 0.9 กิโลเมตร</p>
                             </div>
                         </div>
                         <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                            <div class="product-img" style="margin-left:30px">
+                                <img src="Images_inView/โรงพยาบาล/รพชลบุรี.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลชลบุรี</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 69 หมู่2 ถนนสุขุมวิท
+                                    ตำบลบ้านสวน
+                                    อำเภอเมือง จังหวัดชลบุรี 20000<br>เบอร์โทรศัพท์ : 0-3893-1000</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 11.5 กิโลเมตร</p>
                             </div>
                         </div>
                         <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                            <div class="product-img" style="margin-left:30px">
+                                <img src="Images_inView/โรงพยาบาล/รพสมิติเวชศรีราชา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลสมิติเวช ศรีราชา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 8 ซอยแหลมเตุ ถนนเจิมจอมพล
+                                    อำเภอศรีราชา จังหวัดชลบุรี 20110<br>เบอร์โทรศัพท์ : 0-3832-0300</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 13.9 กิโลเมตร</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12" style="margin-top:20px">
+                    <div class="col-md-12" style="margin-top:10px; margin-bottom:10px">
                         <div>
                             <div class="product-img" style="margin-left:30px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                                <img src="Images_inView/โรงพยาบาล/รพม.บูรพา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลมหาวิทยาลัยบูรพา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 169 ถนนลงหาดบางแสน ตำบลแสนสุข
+                                    อำเภอเมือง จังหวัดชลบุรี 20131<br>เบอร์โทรศัพท์ : 0-3839-4850-3, 0-3839-0324</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 0.9 กิโลเมตร</p>
                             </div>
                         </div>
                         <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                            <div class="product-img" style="margin-left:30px">
+                                <img src="Images_inView/โรงพยาบาล/รพชลบุรี.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลชลบุรี</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 69 หมู่2 ถนนสุขุมวิท
+                                    ตำบลบ้านสวน
+                                    อำเภอเมือง จังหวัดชลบุรี 20000<br>เบอร์โทรศัพท์ : 0-3893-1000</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 11.5 กิโลเมตร</p>
                             </div>
                         </div>
                         <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                            <div class="product-img" style="margin-left:30px">
+                                <img src="Images_inView/โรงพยาบาล/รพสมิติเวชศรีราชา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลสมิติเวช ศรีราชา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 8 ซอยแหลมเตุ ถนนเจิมจอมพล
+                                    อำเภอศรีราชา จังหวัดชลบุรี 20110<br>เบอร์โทรศัพท์ : 0-3832-0300</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 13.9 กิโลเมตร</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12" style="margin-top:20px">
+                    <div class="col-md-12" style="margin-top:10px; margin-bottom:10px">
                         <div>
                             <div class="product-img" style="margin-left:30px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                                <img src="Images_inView/โรงพยาบาล/รพม.บูรพา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลมหาวิทยาลัยบูรพา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 169 ถนนลงหาดบางแสน ตำบลแสนสุข
+                                    อำเภอเมือง จังหวัดชลบุรี 20131<br>เบอร์โทรศัพท์ : 0-3839-4850-3, 0-3839-0324</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 0.9 กิโลเมตร</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
-                            </div>
-                            <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
-                            </div>
-                            <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12" style="margin-top:20px">
                         <div>
                             <div class="product-img" style="margin-left:30px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                                <img src="Images_inView/โรงพยาบาล/รพชลบุรี.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลชลบุรี</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 69 หมู่2 ถนนสุขุมวิท
+                                    ตำบลบ้านสวน
+                                    อำเภอเมือง จังหวัดชลบุรี 20000<br>เบอร์โทรศัพท์ : 0-3893-1000</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 11.5 กิโลเมตร</p>
                             </div>
                         </div>
                         <div>
-                            <div class="product-img" style="margin-left:50px">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
+                            <div class="product-img" style="margin-left:30px">
+                                <img src="Images_inView/โรงพยาบาล/รพสมิติเวชศรีราชา.jpg" height="130" width="150">
                             </div>
                             <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="product-img" style="margin-left:50px; margin-bottom:50px  ">
-                                <img src="Images_inView/278.jpg" height="100" width="130">
-                            </div>
-                            <div class="product-info Fontt">
-                                <p style="font-size: 16px;">สายตาสั้น (Myopia)</p>
-                                <p style="font-size: 12px;text-indent:20px;">เป็นปัญหาของการมองเห็นที่พบได้บ่อยที่สุดชนิดหนึ่งผู้ที่มีสายตาสั้นจะไม่สามารถมองเห็นวัตถุที่อยู่ระยะไกลได้<br></p>
+                                <p style="font-size: 16px">โรงพยาบาลสมิติเวช ศรีราชา</p>
+                                <p style="font-size: 12px; text-indent:20px;">ที่อยู่ : 8 ซอยแหลมเตุ ถนนเจิมจอมพล
+                                    อำเภอศรีราชา จังหวัดชลบุรี 20110<br>เบอร์โทรศัพท์ : 0-3832-0300</p>
+                                <p style="font-size: 15px; color:#00a3cc; "> ระยะทาง 13.9 กิโลเมตร</p>
                             </div>
                         </div>
                     </div>
