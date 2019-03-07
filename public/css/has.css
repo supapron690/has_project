@@ -1,0 +1,109 @@
+/* 
+* has
+* Display beautification for web application
+* @input    -
+* @ouput    Display
+* @author   Supapron
+* @Create Date 2562-01-27
+*/
+
+
+html,header{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+}
+html, body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+   /* font-family: 'Nunito', sans-serif; */
+    font-weight: 200;
+    height: 100vh;
+    margin: 10;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/* class Font Sytem*/
+
+.Fontt {
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.FontBody {
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    color: #00BFFF;
+}
+
+.Fonthead {
+    font-family: 'Prompt', sans-serif;  
+    color: #S000000;
+}
+
+
+.FontBody1 {
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+}
+
+.FontBody2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* end class font*/
+
+/* ค้นหา*/
+.search-box
+{
+    background-image:url('storage/Images/magnifying-glass.png');
+    background-repeat:no-repeat;
+    margin-right: 10px;  
+                
+}
