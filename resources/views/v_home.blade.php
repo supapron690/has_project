@@ -141,7 +141,7 @@
 
 <body>
     <div class="container-fluid">
-        <header id="header">
+        <header id="header" class="FontBody">
             <div>
                 <ul class="nav nav-pills Fontt justify-content-end">
                     <li li role="presentation" class="disabled">
@@ -195,7 +195,7 @@
         </header>
         <div id="body" style="margin-top:3%">
             <!--Class col-9 -->
-            <div class="section">
+            <div class="section FontBody">
                 <div class="row">
                     <div class="col-sm-10 Fonthead">
                         <h5>โรค หรืออาการที่ควรรู้</h5>
@@ -341,9 +341,6 @@
         </div>
     </div>
     </div>
-
-
-
 </body>
 
 </html>

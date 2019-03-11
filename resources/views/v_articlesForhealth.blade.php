@@ -89,7 +89,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12" align="center" style="background-color:#D3D3D3;">
-                <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
+                {{-- <img src='Images_inView/logo-01.png' alt="Cinque Terre" width="200" height="100"> --}}
+                <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
             </div>
         </div>
         <div>
@@ -128,7 +129,8 @@
             </div>
 
             <div class="text-image" style="width:100%;height:50%;">
-                <img src="Images_inView/180278-OWMGK8-135.jpg" style="width:100%;height:50%;">
+                {{-- <img src="Images_inView/180278-OWMGK8-135.jpg" style="width:100%;height:50%;"> --}}
+                <img src="{{ url('storage/Images_inView/180278-OWMGK8-135.jpg') }}" style="width:100%;height:50%;"> 
                 <div class="centered-articleForHealth"><span class="Fontt" style="color:blue;">
                         <h1>กรุณากรอกสิ่งที่ต้องการค้นหา</h1>
                     </span>
