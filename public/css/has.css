@@ -1,6 +1,6 @@
 /* 
 * has
-* Display beautification for web application
+* Class Css
 * @input    -
 * @ouput    Display
 * @author   Supapron
@@ -89,4 +89,42 @@
     background-position-x: 97%;
     background-position-y: 50%;
 
+}
+
+/* Set box display */
+.set-box{
+        position: absolute;
+        background-color: #0099e6;
+        color: white;
+        font-size:14px;
+        box-shadow: 3px 3px 10px grey;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px; 
+        border-radius: 12px; 
+        width:300px; 
+        height:300px;
+}
+
+.set-distance10{
+    top: 15%;
+    left:10%;
+}
+.set-distance40{
+    top: 15%;
+    left:35%;
+}
+.set-distance70{
+    top: 15%;
+    left:60%;
+}
+
+/* เอามาจากหน้าเลือกหมวดหมู่ */
+.set-head{
+    color:blue;
+    position: absolute;
+    top: 5%;
+    left: 26%;
+    text-shadow: 2px 1px black;
+    transform: translate(-50%, -50%);
 }
