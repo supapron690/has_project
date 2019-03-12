@@ -15,73 +15,10 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-    <!-- Styles -->
-    <style>
-
-        /* Class Manage message display */
-
-            .Fontt {
-                font-family: 'Prompt', sans-serif;
-                color: #000000;
-                font-size: 20px;
-            }
-
-            .FontBody {
-                font-family: 'Prompt', sans-serif;
-            }
-            /* Class btn in images display */
-            .text-image {
-                position: relative;
-                text-align: center;
-                color: blue;
-
-              }
-              .centered-articleForHealth {
-                position: absolute;
-                top: 18%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-              }
-
-
-              .centered {
-                position: absolute;
-                top: 40%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-              }
-              .btn-image
-              {
-                position: absolute;
-                top: 60%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                border-radius: 12px;
-                margin: 4px 2px;
-              }
-
-              #icon-forHelath {
-
-                background: white url(Images_inView/magnifying-glass.png) no-repeat;
-                position: relative;
-                background-size: 3%;
-                background-position-x: 97%;
-                background-position-y: 50%;
-                width: 700px;
-            }
-            #icon{
-
-                background: white url(Images_inView/magnifying-glass.png) no-repeat;
-                position: relative;
-                background-size: 3%;
-                background-position-x: 97%;
-                background-position-y: 50%;
-
-            }
-
-        </style>
-
-
+    
+    <!-- import CSS -->
+    <link rel="stylesheet" href="{{ asset('css/has.css') }}">
+    
 
 
 </head>
@@ -89,8 +26,9 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12" align="center" style="background-color:#D3D3D3;">
-                <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
+            <div class="col-md-12 AlCenter"  style="background-color:#D3D3D3;">
+                {{-- <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100"> --}}
+                <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
             </div>
         </div>
         <div>
@@ -127,58 +65,33 @@
             <div class="col-md-12  Fontt" style="background-color:skyblue;padding:0px;">
                 <p style="padding-left:40px;padding-top:10px;"><b>แชร์ประสบการณ์</b></p>
             </div>
-            <div class="text-image">
-                <img src="Images_inView/OBFCYE0.jpg" width="100%" height="100%">
-                <span class="Fontt" style="color:blue;position: absolute;top: 5%;
-        left: 26%;text-shadow: 2px 1px black;
-        transform: translate(-50%, -50%);">
+            <div class="col-md-12 "> 
+                <div class="text-image">
+                {{-- <img src="Images_inView/OBFCYE0.jpg" width="100%" height="100%"> --}}
+                <img src="{{ url('storage/Images_inView/OBFCYE0.jpg') }}" width="100%" height="500">
+                <span class="Fontt set-head">
                     <h3>ขั้นตอนที่ 1 : เลือกหมวดหมู่ที่ต้องการแชร์ประสบการณ์</h3>
                 </span>
                 <div class="row">
-
-                    <div class="col-md-4 Fontt" style="position: absolute;
-        top: 20%;
-        left:10%;
-        background-color: #0099e6;
-        color: white;
-        font-size:14px;
-        box-shadow: 3px 3px 10px grey;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px; border-radius: 12px; width:300px; height:300px;">
-                        <img src="Images_inView/stethoscope (3).png" width="50%" height="50%">
+                    <div class="col-md-4 Fontt set-box set-distance10">
+                        {{-- <img src="Images_inView/stethoscope (3).png" width="50%" height="50%"> --}}
+                        <img src="{{ url('storage/Images_inView/stethoscope (3).png') }}"width="50%" height="50%">
                         <p>
                             <h5>หมวดหมู่ : การรักษา</h5>
                         </p>
                         <p>เนื้อหาที่เกี่ยวข้องกับการรักษาทุกรูปแบบทั้งแผนโบราณ และแผนปัจจุบัน</p>
                     </div>
-                    <div class="col-md-4 Fontt" style="position: absolute;
-        top: 20%;
-        left:40%;
-        background-color: #0099e6;
-        color: white;
-        font-size:14px;
-        box-shadow: 3px 3px 10px grey;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px; border-radius: 12px; width:300px; height:300px;">
-                        <img src="Images_inView/care.png" width="50%" height="50%">
+                    <div class="col-md-4 Fontt set-box set-distance40">
+                        {{-- <img src="Images_inView/care.png" width="50%" height="50%"> --}}
+                        <img src="{{ url('storage/Images_inView/care.png') }}" width="50%" height="50%">
                         <p>
                             <h5>หมวดหมู่ : ชีวิตชีวา</h5>
                         </p>
                         <p>เนื้อหาที่เกี่ยวข้องกับการรักษาทุกรูปแบบทั้งแผนโบราณ และแผนปัจจุบัน</p>
                     </div>
-                    <div class="col-md-4 Fontt" style="position: absolute;
-        top: 20%;
-        left:70%;
-        background-color: #0099e6;
-        color: white;
-        font-size:14px;
-        box-shadow: 3px 3px 10px grey;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px; border-radius: 12px; width:300px; height:300px;">
-                        <img src="Images_inView/salad (2).png" width="50%" height="50%">
+                    <div class="col-md-4 Fontt set-box set-distance70" >
+                        {{-- <img src="Images_inView/salad (2).png" width="50%" height="50%"> --}}
+                        <img src="{{ url('storage/Images_inView/salad (2).png ') }}" width="50%" height="50%">
                         <p>
                             <h5>หมวดหมู่ : โภชนาการ</h5>
                         </p>
@@ -187,6 +100,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
         <br>
         <form action="#">
@@ -241,7 +156,8 @@
         <br>
         <div class="row">
             <div class="col-md-12" align="left" style="background-color:#D3D3D3;">
-                <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100">
+                {{-- <img src="Images_inView/logo-01.png" alt="Cinque Terre" width="200" height="100"> --}}
+                <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
             </div>
         </div>
     </div>
